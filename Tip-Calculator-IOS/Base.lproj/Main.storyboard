@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tip Calculator-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tip_Calculator_IOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -111,7 +111,7 @@
                             <outletCollection property="gestureRecognizers" destination="tg3-Z0-Pa9" appends="YES" id="r5J-Zx-vfg"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="JIB-PV-zTd"/>
+                    <navigationItem key="navigationItem" title="Tip Calculator" id="JIB-PV-zTd"/>
                     <connections>
                         <outlet property="detailLabel" destination="pMP-M7-F8j" id="VPm-EW-oR6"/>
                         <outlet property="dollarSign" destination="hfY-zM-39n" id="Zgb-cR-MZW"/>
