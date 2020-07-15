@@ -21,7 +21,7 @@ class ViewController: UIViewController ,UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        textFiled.font = UIFont(name: textFiled.font!.fontName, size: 40)
         textFiled.delegate = self
         textFiled.becomeFirstResponder()
 
@@ -31,6 +31,7 @@ class ViewController: UIViewController ,UITextFieldDelegate {
         view.endEditing(true)
     }
     @IBAction func calculateTip(_ sender: Any) {
+        textFiled.font = UIFont(name: textFiled.font!.fontName, size: 50)
 
         let billAmount = Double(textFiled.text!) ?? 0
         let percentages = [0.1,0.2,0.3]
