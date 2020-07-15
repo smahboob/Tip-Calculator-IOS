@@ -21,11 +21,7 @@ class ViewController: UIViewController ,UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        plusSign.isHidden = true
-        equalSign.isHidden = true
-        slider2.isHidden = true
-        slider.isHidden = true
-        dollarSign.isHidden = true
+        
         textFiled.delegate = self
         textFiled.becomeFirstResponder()
 
@@ -35,11 +31,6 @@ class ViewController: UIViewController ,UITextFieldDelegate {
         view.endEditing(true)
     }
     @IBAction func calculateTip(_ sender: Any) {
-        plusSign.isHidden = false
-        equalSign.isHidden = false
-        slider2.isHidden = false
-        slider.isHidden = false
-        dollarSign.isHidden = false
 
         let billAmount = Double(textFiled.text!) ?? 0
         let percentages = [0.1,0.2,0.3]
