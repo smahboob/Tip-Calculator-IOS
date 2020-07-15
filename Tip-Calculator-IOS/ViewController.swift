@@ -27,6 +27,8 @@ class ViewController: UIViewController ,UITextFieldDelegate {
         slider.isHidden = true
         dollarSign.isHidden = true
         textFiled.delegate = self
+        textFiled.becomeFirstResponder()
+
     }
     
     @IBAction func pressed(_ sender: Any) {
