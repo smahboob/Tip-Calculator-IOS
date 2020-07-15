@@ -34,7 +34,7 @@ class ViewController: UIViewController ,UITextFieldDelegate {
         textFiled.font = UIFont(name: textFiled.font!.fontName, size: 50)
 
         let billAmount = Double(textFiled.text!) ?? 0
-        let percentages = [0.1,0.2,0.3]
+        let percentages = [0.15,0.18,0.20]
         
         let tipIndex = slider.selectedSegmentIndex
         
