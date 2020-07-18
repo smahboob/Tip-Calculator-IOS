@@ -19,7 +19,7 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented user interface:
 
 <img src='http://g.recordit.co/TPtj8jfT4E.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
@@ -28,7 +28,7 @@ GIF created with RecordIt
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2020] [Saad Mahboob]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
